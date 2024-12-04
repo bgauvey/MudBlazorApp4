@@ -1,0 +1,3 @@
+C:\Users\bgauvey\source\repos\MudBlazorApp4\MudBlazorApp4.Client\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\bgauvey\source\repos\MudBlazorApp4\MudBlazorApp4.Client\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\bgauvey\source\repos\MudBlazorApp4\MudBlazorApp4.Client\obj\Debug\net8.0\staticwebassets.build.json

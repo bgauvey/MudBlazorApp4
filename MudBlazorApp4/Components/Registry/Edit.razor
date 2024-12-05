@@ -1,0 +1,249 @@
+@page "/registration/edit/{registrationId:int}";
+
+@using FluentValidation
+@using TLC.Registry.Data
+
+@*
+Animal Name
+D.O.B
+Sex
+Microchip/RFID
+Bloodline
+Color
+
+
+Sire Bloodline
+Sire Registration #
+Dam Bloodline
+Dam Registration#
+*@
+<MudCard>
+	<MudForm Model="@model" @ref="@form" Validation="@(modelValidator.ValidateValue)" ValidationDelay="0">
+		<MudCardContent>
+			<MudTextField @bind-Value="model1.Name"
+						  For="@(() => model1.Name)"
+						  Immediate="true"
+						  Variant="Variant.Outlined"
+						  Label="Animal Name" />
+
+			<MudDatePicker @bind-Value="model1.DateOfBirth"
+						   For="@(() => model1.DateOfBirth)"
+						   Label="Date of Birth" />
+
+			<MudSelect @bind-Value="model1.Sex" Label="Sex">
+				<MudSelectItem Value="@("Buck")">Buck</MudSelectItem>
+				<MudSelectItem Value="@("Doe")">Doe</MudSelectItem>
+			</MudSelect>
+
+			<MudTextField @bind-Value="model1.Bloodline"
+						  For="@(() => model1.Bloodline)"
+						  Immediate="true"
+						  Label="Bloodline" />
+
+			<MudTextField @bind-Value="model1.MicroChip"
+						  For="@(() => model1.MicroChip)"
+						  Immediate="true"
+						  Label="Microchip / RFID" />
+
+			<MudTextField @bind-Value="model1.Color"
+						  For="@(() => model1.Color)"
+						  Immediate="true"
+						  Label="Color" />
+
+			<MudTextField @bind-Value="model1.DnaStatus"
+						  For="@(() => model1.DnaStatus)"
+						  Immediate="true"
+						  Label="DNA Status" />
+
+
+			<MudTextField @bind-Value="model1.RegistrationNumber"
+						  For="@(() => model1.RegistrationNumber)"
+						  Immediate="true"
+						  Label="Registration Number" />
+		</MudCardContent>
+		<MudCardContent Class="pa-0">
+
+			<MudTable Items="@model.OrderDetails" Hover="true" Breakpoint="Breakpoint.None" Dense="@true" Elevation="0">
+				<HeaderContent>
+					<MudTh>Description</MudTh>
+					<MudTh>Offer</MudTh>
+				</HeaderContent>
+				<RowTemplate>
+					<MudTd DataLabel="Description">
+						<MudForm Model="@context" Validation=@(orderDetailsValidator.ValidateValue)>
+							<MudTextField Label="Enter Description"
+										  @bind-Value="context.Description"
+										  For="(() => context.Description)" />
+						</MudForm>
+					</MudTd>
+					<MudTd DataLabel="Offer">
+						<MudForm Model="@context">
+							<MudNumericField Label="Enter Offer"
+											 @bind-Value="context.Offer"
+											 Validation=@(orderDetailsValidator.ValidateValue)
+											 For="(() => context.Offer)" />
+						</MudForm>
+					</MudTd>
+				</RowTemplate>
+			</MudTable>
+
+		</MudCardContent>
+	</MudForm>
+	<MudCardActions>
+		<MudButton Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto" OnClick="@(async () => await Submit())">Save</MudButton>
+	</MudCardActions>
+</MudCard>
+
+@code {
+	[Parameter]
+	public int RegistrationId { get; set; }
+	[Inject] ISnackbar Snackbar { get; set; }
+
+	bool isNew = false;
+
+	MudForm form;
+
+	RegistryModelFluentValidator modelValidator = new RegistryModelFluentValidator();
+
+	OrderDetailsModelFluentValidator orderDetailsValidator = new OrderDetailsModelFluentValidator();
+
+	Registry model1 = new Registry
+		{
+			RegistrationId = -1,
+			Name = null,
+			Classification = null,
+			Sex = null,
+			DnaStatus = null,
+			RegistrationNumber = null
+		};
+
+	OrderModel model = new OrderModel();
+
+	protected override void OnParametersSet() => isNew = RegistrationId == 0;
+
+	public class OrderModel
+	{
+		public string Name { get; set; }
+		public string Email { get; set; }
+		public string CCNumber { get; set; } = "4012 8888 8888 1881";
+		public AddressModel Address { get; set; } = new AddressModel();
+		public List<OrderDetailsModel> OrderDetails = new List<OrderDetailsModel>()
+		{
+			new OrderDetailsModel()
+				{
+					Description = "Perform Work order 1",
+					Offer = 100
+				},
+			new OrderDetailsModel()
+		};
+	}
+
+	public class AddressModel
+	{
+		public string Address { get; set; }
+		public string City { get; set; }
+		public string Country { get; set; }
+	}
+
+	public class OrderDetailsModel
+	{
+		public string Description { get; set; }
+		public decimal Offer { get; set; }
+	}
+
+	private async Task Submit()
+	{
+		await form.Validate();
+
+		if (form.IsValid)
+		{
+			Snackbar.Add("Submitted!");
+		}
+	}
+
+	/// <summary>
+	/// Method to calculate the registration number.
+	/// </summary>
+	private async Task CalculateRegistrationNumber()
+	{
+		// A24F1234WPK2 for example is calculated as
+		// A=ASGA
+		// 24=Year
+		// 1234=Tag#
+		// WPK=Herd Prefix
+		// 2=The second animal registered by WPK for 2024.
+	}
+
+	/// <summary>
+	/// A standard AbstractValidator which contains multiple rules and can be shared with the back end API
+	/// </summary>
+	/// <typeparam name="Registry"></typeparam>
+	public class RegistryModelFluentValidator : AbstractValidator<Registry>
+	{
+		public RegistryModelFluentValidator()
+		{
+			RuleFor(x => x.Name)
+				.NotEmpty()
+				.Length(1, 100);
+
+			RuleFor(x => x.RegistrationNumber)
+				.NotEmpty()
+				.Length(1, 100)
+				.MustAsync(async (value, cancellationToken) => await IsUniqueAsync(value));
+
+			RuleFor(x => x.Classification)
+				.NotEmpty();
+
+			RuleFor(x => x.Sex)
+				.NotEmpty()
+				.Length(1, 100);
+
+			RuleFor(x => x.DnaStatus)
+				.NotEmpty();
+
+			//RuleForEach(x => x.OrderDetails)
+			//		.SetValidator(new OrderDetailsModelFluentValidator());
+		}
+
+		private async Task<bool> IsUniqueAsync(string registrationNumber)
+		{
+			// Simulates a long running http call
+			await Task.Delay(2000);
+			return registrationNumber.ToLower() != "A24F1234WPK2";
+		}
+
+		public Func<object, string, Task<IEnumerable<string>>> ValidateValue => async (model, propertyName) =>
+		{
+			var result = await ValidateAsync(ValidationContext<Registry>.CreateWithOptions((Registry)model, x => x.IncludeProperties(propertyName)));
+			if (result.IsValid)
+				return Array.Empty<string>();
+			return result.Errors.Select(e => e.ErrorMessage);
+		};
+	}
+
+	/// <summary>
+	/// A standard AbstractValidator for the Collection Object
+	/// </summary>
+	/// <typeparam name="OrderDetailsModel"></typeparam>
+	public class OrderDetailsModelFluentValidator : AbstractValidator<OrderDetailsModel>
+	{
+		public OrderDetailsModelFluentValidator()
+		{
+			RuleFor(x => x.Description)
+				.NotEmpty()
+				.Length(1, 100);
+
+			RuleFor(x => x.Offer)
+				.GreaterThan(0)
+				.LessThan(999);
+		}
+
+		public Func<object, string, Task<IEnumerable<string>>> ValidateValue => async (model, propertyName) =>
+		{
+			var result = await ValidateAsync(ValidationContext<OrderDetailsModel>.CreateWithOptions((OrderDetailsModel)model, x => x.IncludeProperties(propertyName)));
+			if (result.IsValid)
+				return Array.Empty<string>();
+			return result.Errors.Select(e => e.ErrorMessage);
+		};
+	}
+}

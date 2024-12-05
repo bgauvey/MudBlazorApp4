@@ -1,7 +1,7 @@
 {
-  "mainAssemblyName": "MudBlazorApp4.Client",
+  "mainAssemblyName": "TLC.Registry.Client",
   "resources": {
-    "hash": "sha256-2VVbQ43qCVkDMdfm7QZEavq3eFPU9XqnncIGudv8f8s=",
+    "hash": "sha256-q0m5ZiuwYE4oIpQB5f2dguyEt0y3aClwDiP3ShaC9sA=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-VdKq87/z5NIxZKmuM+fv38XF+RcEb/bg3jVBwQSfwP4="
     },
@@ -214,10 +214,10 @@
       "mscorlib.wasm": "sha256-04e4k5XU8HWGB/dq/2+j84xzzGPflTs0IYWI0OxogVc=",
       "netstandard.wasm": "sha256-gnGZURPnoSmjXuYNCOJi5tt8qn2LRImWgue1Ru3/TDQ=",
       "System.Private.CoreLib.wasm": "sha256-6w3jYr0arcp8jnt4aeqh+AmqrLA6q7jl9rQYAwLzE0M=",
-      "MudBlazorApp4.Client.wasm": "sha256-+BK2oyG95LTYwMr7jp42DgEapdp7vB2SXpEu1/tVYMQ="
+      "TLC.Registry.Client.wasm": "sha256-yZR/b+as8/sMV6l8Q0IXume9cBIH7JCA2OFYfZvU580="
     },
     "pdb": {
-      "MudBlazorApp4.Client.pdb": "sha256-73euQVqlVbxV9Z6zvMiy5RdMFXcIcclxHlej4Otec3o="
+      "TLC.Registry.Client.pdb": "sha256-+R8IrlSlNmjK0OseGEn8lIdorcl0SyZoVwXb5RWxlto="
     }
   },
   "cacheBootResources": true,

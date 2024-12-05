@@ -6,10 +6,10 @@ using Microsoft.AspNetCore.Components.Server;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
-using MudBlazorApp4.Client;
-using MudBlazorApp4.Data;
+using TLC.Registry.Client;
+using TLC.Registry.Data;
 
-namespace MudBlazorApp4.Components.Account;
+namespace TLC.Registry.Components.Account;
 
 // This is a server-side AuthenticationStateProvider that revalidates the security stamp for the connected user
 // every 30 minutes an interactive circuit is connected. It also uses PersistentComponentState to flow the

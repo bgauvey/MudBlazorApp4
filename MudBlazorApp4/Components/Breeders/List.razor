@@ -1,0 +1,87 @@
+@page "/breeders"
+@rendermode InteractiveServer
+@using TLC.Registry.Contracts
+@using TLC.Registry.Data
+@using TLC.Registry.Services
+
+
+<PageTitle>Breeders</PageTitle>
+
+<MudDataGrid T="Breeder" MultiSelection="true" Items="@Breeders" SortMode="SortMode.Multiple" Filterable="true" QuickFilter="@_quickFilter"
+             Hideable="true" RowClick="@RowClicked" RowContextMenuClick="RowRightClicked" SelectedItemsChanged="@SelectedItemsChanged">
+    <ToolBarContent>
+        <MudText Typo="Typo.h6">Breeders</MudText>
+        <MudSpacer />
+        <MudTextField @bind-Value="_searchString" Placeholder="Search" Adornment="Adornment.Start" Immediate="true"
+                      AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
+    </ToolBarContent>
+    <Columns>
+        <SelectColumn T="Breeder" />
+        <PropertyColumn Property="x => x.BreederId" Hidden="true"/>
+        <PropertyColumn Property="x => x.Name" />
+        <PropertyColumn Property="x => x.FarmName" SortBy="@_sortBy" Title="Farm Name"/>
+        <PropertyColumn Property="x => x.HerdPrefix" />
+        <PropertyColumn Property="x => x.City"/>
+        <PropertyColumn Property="x => x.State"  />
+        <PropertyColumn Property="x => x.Zip"  />
+    </Columns>
+    <PagerContent>
+        <MudDataGridPager T="Breeder" />
+    </PagerContent>
+</MudDataGrid>
+
+@code {
+    [Inject] 
+    private IBreederService _breederService { get; set; }
+    
+    private IEnumerable<Breeder> Breeders = new List<Breeder>();
+    private string _searchString;
+    private bool _sortNameByLength;
+    private List<string> _events = new();
+    // custom sort by name length
+    private Func<Breeder, object> _sortBy => x =>
+    {
+        if (_sortNameByLength)
+            return x.Name.Length;
+        else
+            return x.Name;
+    };
+    // quick filter - filter globally across multiple columns with the same input
+    private Func<Breeder, bool> _quickFilter => x =>
+    {
+        if (string.IsNullOrWhiteSpace(_searchString))
+            return true;
+
+        if (x.FarmName.Contains(_searchString, StringComparison.OrdinalIgnoreCase))
+            return true;
+
+        if (x.Name.Contains(_searchString, StringComparison.OrdinalIgnoreCase))
+            return true;
+
+        if ($"{x.City} {x.State} {x.Zip}".Contains(_searchString))
+            return true;
+
+        return false;
+    };
+
+    protected override async Task OnInitializedAsync()
+    {
+        Breeders = await _breederService.GetBreeders();
+    }
+
+    // events
+    void RowClicked(DataGridRowClickEventArgs<Breeder> args)
+    {
+        _events.Insert(0, $"Event = RowClick, Index = {args.RowIndex}, Data = {System.Text.Json.JsonSerializer.Serialize(args.Item)}");
+    }
+
+    void RowRightClicked(DataGridRowClickEventArgs<Breeder> args)
+    {
+        _events.Insert(0, $"Event = RowRightClick, Index = {args.RowIndex}, Data = {System.Text.Json.JsonSerializer.Serialize(args.Item)}");
+    }
+
+    void SelectedItemsChanged(HashSet<Breeder> items)
+    {
+        _events.Insert(0, $"Event = SelectedItemsChanged, Data = {System.Text.Json.JsonSerializer.Serialize(items)}");
+    }
+}

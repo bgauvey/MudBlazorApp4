@@ -3,6 +3,15 @@
 @inject NavigationManager NavigationManager
 
 <MudNavMenu>
+    <MudNavLink Href="/" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Dashboard" IconColor="Color.Success">Dashboard</MudNavLink>
+    <MudNavLink Href="registry/" Icon="@Icons.Material.Filled.AppRegistration"  IconColor="Color.Info" Match="NavLinkMatch.Prefix">Registry</MudNavLink>
+    <MudNavLink Href="breeders/" Icon="@Icons.Material.Filled.FilterList" Match="NavLinkMatch.Prefix" IconColor="Color.Primary">Breeders</MudNavLink>
+    <MudNavGroup Title="Admin" Icon="@Icons.Material.Filled.AdminPanelSettings" Expanded="false" IconColor="Color.Dark">
+        <MudNavLink Href="auth" Icon="@Icons.Material.Filled.People" Match="NavLinkMatch.Prefix">Users</MudNavLink>
+    </MudNavGroup>
+</MudNavMenu>
+@*
+<MudNavMenu>
     <MudNavLink Href="" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Home">Home</MudNavLink>
     <MudNavLink Href="counter" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.Add">Counter</MudNavLink>
     <MudNavLink Href="weather" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.List">Weather</MudNavLink>
@@ -25,7 +34,7 @@
         </NotAuthorized>
     </AuthorizeView>
 </MudNavMenu>
-
+*@
 
 @code {
     private string? currentUrl;

@@ -1,27 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bgauvey\\source\\repos\\MudBlazorApp4\\MudBlazorApp4\\MudBlazorApp4.csproj": {}
+    "E:\\source\\MudBlazorApp4\\MudBlazorApp4\\MudBlazorApp4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bgauvey\\source\\repos\\MudBlazorApp4\\MudBlazorApp4.Client\\MudBlazorApp4.Client.csproj": {
+    "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\MudBlazorApp4.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bgauvey\\source\\repos\\MudBlazorApp4\\MudBlazorApp4.Client\\MudBlazorApp4.Client.csproj",
+        "projectUniqueName": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\MudBlazorApp4.Client.csproj",
         "projectName": "MudBlazorApp4.Client",
-        "projectPath": "C:\\Users\\bgauvey\\source\\repos\\MudBlazorApp4\\MudBlazorApp4.Client\\MudBlazorApp4.Client.csproj",
-        "packagesPath": "C:\\Users\\bgauvey\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bgauvey\\source\\repos\\MudBlazorApp4\\MudBlazorApp4.Client\\obj\\",
+        "projectPath": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\MudBlazorApp4.Client.csproj",
+        "packagesPath": "C:\\Users\\bgauv\\.nuget\\packages\\",
+        "outputPath": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
-          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\bgauvey\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+          "C:\\Users\\bgauv\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -30,9 +26,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/7Geqj2P7zWX6ZWqDehcg2hPO7yF63hZsUOHHWJkikyCRROh8I7/api/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -112,24 +108,20 @@
         }
       }
     },
-    "C:\\Users\\bgauvey\\source\\repos\\MudBlazorApp4\\MudBlazorApp4\\MudBlazorApp4.csproj": {
+    "E:\\source\\MudBlazorApp4\\MudBlazorApp4\\MudBlazorApp4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bgauvey\\source\\repos\\MudBlazorApp4\\MudBlazorApp4\\MudBlazorApp4.csproj",
+        "projectUniqueName": "E:\\source\\MudBlazorApp4\\MudBlazorApp4\\MudBlazorApp4.csproj",
         "projectName": "MudBlazorApp4",
-        "projectPath": "C:\\Users\\bgauvey\\source\\repos\\MudBlazorApp4\\MudBlazorApp4\\MudBlazorApp4.csproj",
-        "packagesPath": "C:\\Users\\bgauvey\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bgauvey\\source\\repos\\MudBlazorApp4\\MudBlazorApp4\\obj\\",
+        "projectPath": "E:\\source\\MudBlazorApp4\\MudBlazorApp4\\MudBlazorApp4.csproj",
+        "packagesPath": "C:\\Users\\bgauv\\.nuget\\packages\\",
+        "outputPath": "E:\\source\\MudBlazorApp4\\MudBlazorApp4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
-          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\bgauvey\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+          "C:\\Users\\bgauv\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -138,16 +130,16 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/7Geqj2P7zWX6ZWqDehcg2hPO7yF63hZsUOHHWJkikyCRROh8I7/api/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\bgauvey\\source\\repos\\MudBlazorApp4\\MudBlazorApp4.Client\\MudBlazorApp4.Client.csproj": {
-                "projectPath": "C:\\Users\\bgauvey\\source\\repos\\MudBlazorApp4\\MudBlazorApp4.Client\\MudBlazorApp4.Client.csproj"
+              "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\MudBlazorApp4.Client.csproj": {
+                "projectPath": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\MudBlazorApp4.Client.csproj"
               }
             }
           }

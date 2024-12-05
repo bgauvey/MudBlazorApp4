@@ -1,4 +1,4 @@
-using MudBlazorApp4.Client;
+using TLC.Registry.Client;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using MudBlazor.Services;

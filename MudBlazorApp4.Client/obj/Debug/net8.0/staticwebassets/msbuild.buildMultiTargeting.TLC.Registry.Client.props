@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TLC.Registry.Client.props" />
+</Project>

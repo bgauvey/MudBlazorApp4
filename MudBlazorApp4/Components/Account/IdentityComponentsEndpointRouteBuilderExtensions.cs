@@ -6,9 +6,9 @@ using Microsoft.AspNetCore.Http.Extensions;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Primitives;
-using MudBlazorApp4.Components.Account.Pages;
-using MudBlazorApp4.Components.Account.Pages.Manage;
-using MudBlazorApp4.Data;
+using TLC.Registry.Components.Account.Pages;
+using TLC.Registry.Components.Account.Pages.Manage;
+using TLC.Registry.Data;
 
 namespace Microsoft.AspNetCore.Routing;
 

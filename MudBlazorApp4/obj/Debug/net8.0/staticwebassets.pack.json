@@ -1,28 +1,28 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\bgauvey\\source\\repos\\MudBlazorApp4\\MudBlazorApp4\\wwwroot\\favicon.ico",
+      "Id": "E:\\source\\MudBlazorApp4\\MudBlazorApp4\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MudBlazorApp4.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TLC.Registry.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MudBlazorApp4.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TLC.Registry.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MudBlazorApp4.props",
-      "PackagePath": "build\\MudBlazorApp4.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TLC.Registry.props",
+      "PackagePath": "build\\TLC.Registry.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MudBlazorApp4.props",
-      "PackagePath": "buildMultiTargeting\\MudBlazorApp4.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TLC.Registry.props",
+      "PackagePath": "buildMultiTargeting\\TLC.Registry.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MudBlazorApp4.props",
-      "PackagePath": "buildTransitive\\MudBlazorApp4.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TLC.Registry.props",
+      "PackagePath": "buildTransitive\\TLC.Registry.props"
     }
   ],
   "ElementsToRemove": []

@@ -1,18 +1,13 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using TLC.Registry.Contracts;
 using TLC.Registry.Data;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace TLC.Registry.Services
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class RegistryService : ControllerBase
+ 
+    public class RegistryService : IRegistryService
     {
         private readonly ApplicationDbContext _context;
 
@@ -21,36 +16,22 @@ namespace TLC.Registry.Services
             _context = context;
         }
 
-        // GET: api/RegistryService
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<Data.Registry>>> GetRegistries()
+        public async Task<Data.Registry[]> GetRegistries()
         {
-            return await _context.Registries.ToListAsync();
+            return await _context.Registries.ToArrayAsync();
         }
 
-        // GET: api/RegistryService/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Data.Registry>> GetRegistry(int id)
+        public async Task<Data.Registry?> GetRegistry(int id)
         {
             var registry = await _context.Registries.FindAsync(id);
-
-            if (registry == null)
-            {
-                return NotFound();
-            }
-
             return registry;
         }
 
-        // PUT: api/RegistryService/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
-        [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> PutRegistry(int id, Data.Registry registry)
+        public async Task UpdateRegistry(int id, Data.Registry registry)
         {
             if (id != registry.RegistrationId)
             {
-                return BadRequest();
+                throw new ArgumentException("Id is not valid for this model.");
             }
 
             _context.Entry(registry).State = EntityState.Modified;
@@ -63,44 +44,33 @@ namespace TLC.Registry.Services
             {
                 if (!RegistryExists(id))
                 {
-                    return NotFound();
+                    throw new ApplicationException("Not found.");
                 }
                 else
                 {
                     throw;
                 }
             }
-
-            return NoContent();
         }
 
-        // POST: api/RegistryService
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPost]
-        [Authorize(Roles = "Admin")]
-        public async Task<ActionResult<Data.Registry>> PostRegistry(Data.Registry registry)
+        public async Task<Data.Registry> CreateRegistry(Data.Registry registry)
         {
             _context.Registries.Add(registry);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetRegistry", new { id = registry.RegistrationId }, registry);
+            return registry;
         }
 
-        // DELETE: api/RegistryService/5
-        [HttpDelete("{id}")]
-        [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> DeleteRegistry(int id)
+        public async Task DeleteRegistry(int id)
         {
             var registry = await _context.Registries.FindAsync(id);
             if (registry == null)
             {
-                return NotFound();
+                throw new ApplicationException($"Unable to delete registry {id}");
             }
 
             _context.Registries.Remove(registry);
             await _context.SaveChangesAsync();
-
-            return NoContent();
         }
 
         private bool RegistryExists(int id)

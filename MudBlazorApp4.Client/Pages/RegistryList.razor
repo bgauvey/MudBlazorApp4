@@ -1,15 +1,18 @@
-@page "/registry"
-@rendermode InteractiveServer
+﻿@page "/registry"
+@using TLC.Registry.Client.Contracts;
+@using TLC.Registry.Client.Models;
+@inject IRegistryService registryService;
+@rendermode @(new InteractiveAutoRenderMode(false));
 
 <PageTitle>Registry</PageTitle>
 
 <MudDataGrid T="Element" MultiSelection="true" Items="@Elements" SortMode="SortMode.Multiple" Filterable="true" QuickFilter="@_quickFilter"
-             Hideable="true" RowClick="@RowClicked" RowContextMenuClick="RowRightClicked" SelectedItemsChanged="@SelectedItemsChanged">
+Hideable="true" RowClick="@RowClicked" RowContextMenuClick="RowRightClicked" SelectedItemsChanged="@SelectedItemsChanged">
     <ToolBarContent>
         <MudText Typo="Typo.h6">Registered Goats</MudText>
         <MudSpacer />
         <MudTextField @bind-Value="_searchString" Placeholder="Search" Adornment="Adornment.Start" Immediate="true"
-                      AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
+        AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
     </ToolBarContent>
     <Columns>
         <SelectColumn T="Element" />
@@ -35,10 +38,10 @@
         {
             <MudText Typo="@Typo.body2">@message</MudText>
         }
-        @if(_events.Count > 0)
+        @if (_events.Count > 0)
         {
             <div class="d-flex">
-                <MudSpacer/>
+                <MudSpacer />
                 <MudButton Class="mt-3" ButtonType="ButtonType.Button" Variant="Variant.Filled" OnClick="@(() => _events.Clear())">Clear</MudButton>
             </div>
         }
@@ -55,8 +58,8 @@
         public float Molar { get; set; }
         public string Group { get; set; }
     }
-    
-    
+
+
     private IEnumerable<Element> Elements = new List<Element>();
     private string _searchString;
     private bool _sortNameByLength;
@@ -90,6 +93,10 @@
     protected override async Task OnInitializedAsync()
     {
         Elements = new List<Element>(); //await httpClient.GetFromJsonAsync<List<Element>>("webapi/periodictable");
+
+
+        Registry[]? registryList = await registryService.GetRegistries();
+
     }
 
     // events

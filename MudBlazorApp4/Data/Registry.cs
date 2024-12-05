@@ -25,6 +25,7 @@ namespace TLC.Registry.Data;
 
 public class Registry
 {
+
     [Key]
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public required int RegistrationId { get; set; }

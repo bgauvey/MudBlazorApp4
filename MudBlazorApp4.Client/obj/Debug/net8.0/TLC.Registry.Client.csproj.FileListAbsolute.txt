@@ -1057,6 +1057,6 @@ E:\source\MudBlazorApp4\MudBlazorApp4.Client\obj\Debug\net8.0\TLC.Registry.Clien
 E:\source\MudBlazorApp4\MudBlazorApp4.Client\obj\Debug\net8.0\refint\TLC.Registry.Client.dll
 E:\source\MudBlazorApp4\MudBlazorApp4.Client\obj\Debug\net8.0\TLC.Registry.Client.pdb
 E:\source\MudBlazorApp4\MudBlazorApp4.Client\obj\Debug\net8.0\ref\TLC.Registry.Client.dll
-E:\source\MudBlazorApp4\MudBlazorApp4.Client\obj\Debug\net8.0\compressed\bvf7gqjgh8-1mfvs25k6a.gz
-E:\source\MudBlazorApp4\MudBlazorApp4.Client\obj\Debug\net8.0\compressed\0wct9raicj-j9bk2yqn95.gz
-E:\source\MudBlazorApp4\MudBlazorApp4.Client\obj\Debug\net8.0\compressed\12rh1rstkj-izhh33fopa.gz
+E:\source\MudBlazorApp4\MudBlazorApp4.Client\obj\Debug\net8.0\compressed\bvf7gqjgh8-2uzli0tett.gz
+E:\source\MudBlazorApp4\MudBlazorApp4.Client\obj\Debug\net8.0\compressed\0wct9raicj-gb4jvmmphb.gz
+E:\source\MudBlazorApp4\MudBlazorApp4.Client\obj\Debug\net8.0\compressed\12rh1rstkj-a5qbcwq3b9.gz

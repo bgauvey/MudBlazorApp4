@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "TLC.Registry.Client",
   "resources": {
-    "hash": "sha256-q0m5ZiuwYE4oIpQB5f2dguyEt0y3aClwDiP3ShaC9sA=",
+    "hash": "sha256-K01kbxRfMaG3+jO64eYQvGbMxJwiLMaRUN7B+s+gDww=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-VdKq87/z5NIxZKmuM+fv38XF+RcEb/bg3jVBwQSfwP4="
     },
@@ -214,10 +214,10 @@
       "mscorlib.wasm": "sha256-04e4k5XU8HWGB/dq/2+j84xzzGPflTs0IYWI0OxogVc=",
       "netstandard.wasm": "sha256-gnGZURPnoSmjXuYNCOJi5tt8qn2LRImWgue1Ru3/TDQ=",
       "System.Private.CoreLib.wasm": "sha256-6w3jYr0arcp8jnt4aeqh+AmqrLA6q7jl9rQYAwLzE0M=",
-      "TLC.Registry.Client.wasm": "sha256-yZR/b+as8/sMV6l8Q0IXume9cBIH7JCA2OFYfZvU580="
+      "TLC.Registry.Client.wasm": "sha256-qkr6nQqhkRYkp71YtBAQD7g8ReWzkJZdvMEoxu+Bnbo="
     },
     "pdb": {
-      "TLC.Registry.Client.pdb": "sha256-+R8IrlSlNmjK0OseGEn8lIdorcl0SyZoVwXb5RWxlto="
+      "TLC.Registry.Client.pdb": "sha256-nNM+NUzBk4Ai/36Dp0ZLW06+8+OfWBtvq4/lGdl60Uc="
     }
   },
   "cacheBootResources": true,

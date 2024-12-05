@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TLC.Registry.Client")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a53ac3a087e9fb731b9505bff184af78b47013ff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+069798acee580d793adc44f1ba289cd92e36a3c1")]
 [assembly: System.Reflection.AssemblyProductAttribute("TLC.Registry.Client")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TLC.Registry.Client")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

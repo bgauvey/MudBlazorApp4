@@ -3,52 +3,12 @@
   "WorkspaceRootPath": "E:\\source\\MudBlazorApp4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7A513242-CC9B-4673-991A-9E2BF570B380}|MudBlazorApp4\\TLC.Registry.csproj|e:\\source\\mudblazorapp4\\mudblazorapp4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A513242-CC9B-4673-991A-9E2BF570B380}|MudBlazorApp4\\TLC.Registry.csproj|solutionrelative:mudblazorapp4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9157715B-D6E8-4370-8374-653B313210F0}|MudBlazorApp4.Client\\TLC.Registry.Client.csproj|e:\\source\\mudblazorapp4\\mudblazorapp4.client\\pages\\registrylist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9157715B-D6E8-4370-8374-653B313210F0}|MudBlazorApp4.Client\\TLC.Registry.Client.csproj|solutionrelative:mudblazorapp4.client\\pages\\registrylist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9157715B-D6E8-4370-8374-653B313210F0}|MudBlazorApp4.Client\\TLC.Registry.Client.csproj|e:\\source\\mudblazorapp4\\mudblazorapp4.client\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9157715B-D6E8-4370-8374-653B313210F0}|MudBlazorApp4.Client\\TLC.Registry.Client.csproj|solutionrelative:mudblazorapp4.client\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9157715B-D6E8-4370-8374-653B313210F0}|MudBlazorApp4.Client\\MudBlazorApp4.Client.csproj|e:\\source\\mudblazorapp4\\mudblazorapp4.client\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9157715B-D6E8-4370-8374-653B313210F0}|MudBlazorApp4.Client\\MudBlazorApp4.Client.csproj|solutionrelative:mudblazorapp4.client\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A513242-CC9B-4673-991A-9E2BF570B380}|MudBlazorApp4\\TLC.Registry.csproj|e:\\source\\mudblazorapp4\\mudblazorapp4\\services\\registryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A513242-CC9B-4673-991A-9E2BF570B380}|MudBlazorApp4\\TLC.Registry.csproj|solutionrelative:mudblazorapp4\\services\\registryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A513242-CC9B-4673-991A-9E2BF570B380}|MudBlazorApp4\\TLC.Registry.csproj|e:\\source\\mudblazorapp4\\mudblazorapp4\\contracts\\ibreederservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A513242-CC9B-4673-991A-9E2BF570B380}|MudBlazorApp4\\TLC.Registry.csproj|solutionrelative:mudblazorapp4\\contracts\\ibreederservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A513242-CC9B-4673-991A-9E2BF570B380}|MudBlazorApp4\\TLC.Registry.csproj|e:\\source\\mudblazorapp4\\mudblazorapp4\\services\\breederservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A513242-CC9B-4673-991A-9E2BF570B380}|MudBlazorApp4\\TLC.Registry.csproj|solutionrelative:mudblazorapp4\\services\\breederservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A513242-CC9B-4673-991A-9E2BF570B380}|MudBlazorApp4\\TLC.Registry.csproj|e:\\source\\mudblazorapp4\\mudblazorapp4\\data\\states.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A513242-CC9B-4673-991A-9E2BF570B380}|MudBlazorApp4\\TLC.Registry.csproj|solutionrelative:mudblazorapp4\\data\\states.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A513242-CC9B-4673-991A-9E2BF570B380}|MudBlazorApp4\\TLC.Registry.csproj|e:\\source\\mudblazorapp4\\mudblazorapp4\\data\\dnastatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A513242-CC9B-4673-991A-9E2BF570B380}|MudBlazorApp4\\TLC.Registry.csproj|solutionrelative:mudblazorapp4\\data\\dnastatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A513242-CC9B-4673-991A-9E2BF570B380}|MudBlazorApp4\\TLC.Registry.csproj|e:\\source\\mudblazorapp4\\mudblazorapp4\\data\\classification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A513242-CC9B-4673-991A-9E2BF570B380}|MudBlazorApp4\\TLC.Registry.csproj|solutionrelative:mudblazorapp4\\data\\classification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A513242-CC9B-4673-991A-9E2BF570B380}|MudBlazorApp4\\TLC.Registry.csproj|e:\\source\\mudblazorapp4\\mudblazorapp4\\components\\registry\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7A513242-CC9B-4673-991A-9E2BF570B380}|MudBlazorApp4\\TLC.Registry.csproj|solutionrelative:mudblazorapp4\\components\\registry\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9157715B-D6E8-4370-8374-653B313210F0}|MudBlazorApp4.Client\\TLC.Registry.Client.csproj|e:\\source\\mudblazorapp4\\mudblazorapp4.client\\tlc.registry.client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9157715B-D6E8-4370-8374-653B313210F0}|MudBlazorApp4.Client\\TLC.Registry.Client.csproj|solutionrelative:mudblazorapp4.client\\tlc.registry.client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9157715B-D6E8-4370-8374-653B313210F0}|MudBlazorApp4.Client\\MudBlazorApp4.Client.csproj|e:\\source\\mudblazorapp4\\mudblazorapp4.client\\pages\\mudtest.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9157715B-D6E8-4370-8374-653B313210F0}|MudBlazorApp4.Client\\MudBlazorApp4.Client.csproj|solutionrelative:mudblazorapp4.client\\pages\\mudtest.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9157715B-D6E8-4370-8374-653B313210F0}|MudBlazorApp4.Client\\TLC.Registry.Client.csproj|e:\\source\\mudblazorapp4\\mudblazorapp4.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9157715B-D6E8-4370-8374-653B313210F0}|MudBlazorApp4.Client\\TLC.Registry.Client.csproj|solutionrelative:mudblazorapp4.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -114,158 +74,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\source\\MudBlazorApp4\\MudBlazorApp4\\Program.cs",
-              "RelativeDocumentMoniker": "MudBlazorApp4\\Program.cs",
-              "ToolTip": "E:\\source\\MudBlazorApp4\\MudBlazorApp4\\Program.cs",
-              "RelativeToolTip": "MudBlazorApp4\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAcwB0AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T23:59:22.507Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "MudBlazorApp4.Client\\Layout\\NavMenu.razor",
-              "ToolTip": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "MudBlazorApp4.Client\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAACIAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\Program.cs",
+              "RelativeDocumentMoniker": "MudBlazorApp4.Client\\Program.cs",
+              "ToolTip": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\Program.cs",
+              "RelativeToolTip": "MudBlazorApp4.Client\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T02:44:18.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegistryList.razor",
+              "DocumentMoniker": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\Pages\\RegistryList.razor",
+              "RelativeDocumentMoniker": "MudBlazorApp4.Client\\Pages\\RegistryList.razor",
+              "ToolTip": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\Pages\\RegistryList.razor*",
+              "RelativeToolTip": "MudBlazorApp4.Client\\Pages\\RegistryList.razor*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-04T23:58:03.849Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RegistryService.cs",
-              "DocumentMoniker": "E:\\source\\MudBlazorApp4\\MudBlazorApp4\\Services\\RegistryService.cs",
-              "RelativeDocumentMoniker": "MudBlazorApp4\\Services\\RegistryService.cs",
-              "ToolTip": "E:\\source\\MudBlazorApp4\\MudBlazorApp4\\Services\\RegistryService.cs",
-              "RelativeToolTip": "MudBlazorApp4\\Services\\RegistryService.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwFUAAABiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T23:52:48.556Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BreederService.cs",
-              "DocumentMoniker": "E:\\source\\MudBlazorApp4\\MudBlazorApp4\\Services\\BreederService.cs",
-              "RelativeDocumentMoniker": "MudBlazorApp4\\Services\\BreederService.cs",
-              "ToolTip": "E:\\source\\MudBlazorApp4\\MudBlazorApp4\\Services\\BreederService.cs",
-              "RelativeToolTip": "MudBlazorApp4\\Services\\BreederService.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAIwFgAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T23:51:43.689Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "States.cs",
-              "DocumentMoniker": "E:\\source\\MudBlazorApp4\\MudBlazorApp4\\Data\\States.cs",
-              "RelativeDocumentMoniker": "MudBlazorApp4\\Data\\States.cs",
-              "ToolTip": "E:\\source\\MudBlazorApp4\\MudBlazorApp4\\Data\\States.cs",
-              "RelativeToolTip": "MudBlazorApp4\\Data\\States.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T23:49:12.723Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DnaStatus.cs",
-              "DocumentMoniker": "E:\\source\\MudBlazorApp4\\MudBlazorApp4\\Data\\DnaStatus.cs",
-              "RelativeDocumentMoniker": "MudBlazorApp4\\Data\\DnaStatus.cs",
-              "ToolTip": "E:\\source\\MudBlazorApp4\\MudBlazorApp4\\Data\\DnaStatus.cs",
-              "RelativeToolTip": "MudBlazorApp4\\Data\\DnaStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T23:48:38.531Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Classification.cs",
-              "DocumentMoniker": "E:\\source\\MudBlazorApp4\\MudBlazorApp4\\Data\\Classification.cs",
-              "RelativeDocumentMoniker": "MudBlazorApp4\\Data\\Classification.cs",
-              "ToolTip": "E:\\source\\MudBlazorApp4\\MudBlazorApp4\\Data\\Classification.cs",
-              "RelativeToolTip": "MudBlazorApp4\\Data\\Classification.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T23:48:29.243Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Edit.razor",
-              "DocumentMoniker": "E:\\source\\MudBlazorApp4\\MudBlazorApp4\\Components\\Registry\\Edit.razor",
-              "RelativeDocumentMoniker": "MudBlazorApp4\\Components\\Registry\\Edit.razor",
-              "ToolTip": "E:\\source\\MudBlazorApp4\\MudBlazorApp4\\Components\\Registry\\Edit.razor",
-              "RelativeToolTip": "MudBlazorApp4\\Components\\Registry\\Edit.razor",
-              "ViewState": "AgIAAJ0AAAAAAAAAAAAtwKoAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-04T23:45:37.831Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TLC.Registry.Client",
-              "DocumentMoniker": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\TLC.Registry.Client.csproj",
-              "RelativeDocumentMoniker": "MudBlazorApp4.Client\\TLC.Registry.Client.csproj",
-              "ToolTip": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\TLC.Registry.Client.csproj",
-              "RelativeToolTip": "MudBlazorApp4.Client\\TLC.Registry.Client.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-04T23:32:55.053Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MudTest.razor",
-              "DocumentMoniker": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\Pages\\MudTest.razor",
-              "RelativeDocumentMoniker": "MudBlazorApp4.Client\\Pages\\MudTest.razor",
-              "ToolTip": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\Pages\\MudTest.razor",
-              "RelativeToolTip": "MudBlazorApp4.Client\\Pages\\MudTest.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-04T21:08:04.416Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "MudBlazorApp4.Client\\Layout\\MainLayout.razor",
-              "ToolTip": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "MudBlazorApp4.Client\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-04T18:51:31.857Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IBreederService.cs",
-              "DocumentMoniker": "E:\\source\\MudBlazorApp4\\MudBlazorApp4\\Contracts\\IBreederService.cs",
-              "RelativeDocumentMoniker": "MudBlazorApp4\\Contracts\\IBreederService.cs",
-              "ToolTip": "E:\\source\\MudBlazorApp4\\MudBlazorApp4\\Contracts\\IBreederService.cs",
-              "RelativeToolTip": "MudBlazorApp4\\Contracts\\IBreederService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T23:52:22.953Z",
+              "WhenOpened": "2024-12-05T02:44:15.358Z",
               "EditorCaption": ""
             }
           ]

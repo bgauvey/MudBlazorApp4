@@ -7,10 +7,6 @@
     <UserSecretsId>aspnet-MudBlazorApp4-3ec123e5-beb1-4832-af6f-e068a6c2e27b</UserSecretsId>
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Update="Data\app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
-  </ItemGroup>
-
 
   <ItemGroup>
     <ProjectReference Include="..\MudBlazorApp4.Client\TLC.Registry.Client.csproj" />

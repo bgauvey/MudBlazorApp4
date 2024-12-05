@@ -12,7 +12,7 @@ using TLC.Registry.Data;
 namespace TLC.Registry.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241205002149_RegistrySetup")]
+    [Migration("20241205022915_RegistrySetup")]
     partial class RegistrySetup
     {
         /// <inheritdoc />

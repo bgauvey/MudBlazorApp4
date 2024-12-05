@@ -3,9 +3,9 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using MudBlazor.Services;
 using TLC.Registry.Client;
+using TLC.Registry.Contracts;
 using TLC.Registry.Components;
 using TLC.Registry.Components.Account;
-using TLC.Registry.Contracts;
 using TLC.Registry.Data;
 using TLC.Registry.Services;
 
@@ -31,6 +31,8 @@ builder.Services.AddAuthentication(options =>
     })
     .AddIdentityCookies();
 
+builder.Services.AddHttpClient();
+
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
@@ -44,6 +46,7 @@ builder.Services.AddIdentityCore<ApplicationUser>(options => options.SignIn.Requ
 builder.Services.AddSingleton<IEmailSender<ApplicationUser>, IdentityNoOpEmailSender>();
 
 builder.Services.AddScoped<IBreederService, BreederService>();
+builder.Services.AddScoped<IRegistryService, RegistryService>();
 
 var app = builder.Build();
 

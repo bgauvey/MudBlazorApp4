@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IloL7crVx5ozAU9MvpJWgryStikSd1wDgLtmD8UgaOw=",
+  "Hash": "lIcrha3tAVC+/vXBG9VosMxCo9CM33UJAKD2e3vmnp0=",
   "Source": "TLC.Registry.Client",
   "BasePath": "/",
   "Mode": "Default",
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "izhh33fopa",
-      "Integrity": "TjTSjQOdX6Ehzj5gUVKnkMtJ2qdplo7fkKOCpLmWI30=",
+      "Fingerprint": "a5qbcwq3b9",
+      "Integrity": "4joeLeebv3KxDnAa1tCOKRdeLCrhNhqz70CEz5Gpx2M=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\blazor.boot.json"
@@ -4441,8 +4441,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "j9bk2yqn95",
-      "Integrity": "+R8IrlSlNmjK0OseGEn8lIdorcl0SyZoVwXb5RWxlto=",
+      "Fingerprint": "gb4jvmmphb",
+      "Integrity": "nNM+NUzBk4Ai/36Dp0ZLW06+8+OfWBtvq4/lGdl60Uc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\TLC.Registry.Client.pdb"
@@ -4462,8 +4462,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "1mfvs25k6a",
-      "Integrity": "yZR/b+as8/sMV6l8Q0IXume9cBIH7JCA2OFYfZvU580=",
+      "Fingerprint": "2uzli0tett",
+      "Integrity": "qkr6nQqhkRYkp71YtBAQD7g8ReWzkJZdvMEoxu+Bnbo=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\obj\\Debug\\net8.0\\webcil\\TLC.Registry.Client.wasm"
@@ -4595,7 +4595,7 @@
       "OriginalItemSpec": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.Handles.wasm"
     },
     {
-      "Identity": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\obj\\Debug\\net8.0\\compressed\\0wct9raicj-j9bk2yqn95.gz",
+      "Identity": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\obj\\Debug\\net8.0\\compressed\\0wct9raicj-gb4jvmmphb.gz",
       "SourceId": "TLC.Registry.Client",
       "SourceType": "Computed",
       "ContentRoot": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\obj\\Debug\\net8.0\\compressed\\",
@@ -4609,14 +4609,14 @@
       "RelatedAsset": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\TLC.Registry.Client.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ivr3yw23oz",
-      "Integrity": "3nELu94teFcx6AxV1GbwP1GxKVpDN7RtSMeyfbveUFk=",
+      "Fingerprint": "27cuwfbkr3",
+      "Integrity": "PgUzybM8Tr9mDJH2t+tiCXsQ8T3MaCTbaannl4lX9XA=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\TLC.Registry.Client.pdb"
     },
     {
-      "Identity": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\obj\\Debug\\net8.0\\compressed\\12rh1rstkj-izhh33fopa.gz",
+      "Identity": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\obj\\Debug\\net8.0\\compressed\\12rh1rstkj-a5qbcwq3b9.gz",
       "SourceId": "TLC.Registry.Client",
       "SourceType": "Computed",
       "ContentRoot": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\obj\\Debug\\net8.0\\compressed\\",
@@ -4630,8 +4630,8 @@
       "RelatedAsset": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "649tq4if6r",
-      "Integrity": "mmLPBBqfJnPHBDCzCk6UgOP7RHi0vqo7BUM+awhZXck=",
+      "Fingerprint": "6ac8ohxlcv",
+      "Integrity": "Ljx2Wt5sJDIjWLdD3jBkE8P+dfiQrUVyMh5eiOAd2sg=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -6023,7 +6023,7 @@
       "OriginalItemSpec": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.FileExtensions.wasm"
     },
     {
-      "Identity": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\obj\\Debug\\net8.0\\compressed\\bvf7gqjgh8-1mfvs25k6a.gz",
+      "Identity": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\obj\\Debug\\net8.0\\compressed\\bvf7gqjgh8-2uzli0tett.gz",
       "SourceId": "TLC.Registry.Client",
       "SourceType": "Computed",
       "ContentRoot": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\obj\\Debug\\net8.0\\compressed\\",
@@ -6037,8 +6037,8 @@
       "RelatedAsset": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\TLC.Registry.Client.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "9pzopsgoma",
-      "Integrity": "Q4y+X4FIpcHDD15rspBqPy0VDxwjbY3vcjFQBe4mqsM=",
+      "Fingerprint": "qu5alnrrzl",
+      "Integrity": "Ip3kxDDxs5UV1gMCXSaN+m/CTyA0G3/8cGojZ0PMjRQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\TLC.Registry.Client.wasm"
@@ -9073,11 +9073,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TjTSjQOdX6Ehzj5gUVKnkMtJ2qdplo7fkKOCpLmWI30=\""
+          "Value": "\"4joeLeebv3KxDnAa1tCOKRdeLCrhNhqz70CEz5Gpx2M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 23:58:56 GMT"
+          "Value": "Thu, 05 Dec 2024 04:39:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9087,18 +9087,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-TjTSjQOdX6Ehzj5gUVKnkMtJ2qdplo7fkKOCpLmWI30="
+          "Value": "sha256-4joeLeebv3KxDnAa1tCOKRdeLCrhNhqz70CEz5Gpx2M="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\obj\\Debug\\net8.0\\compressed\\12rh1rstkj-izhh33fopa.gz",
+      "AssetFile": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\obj\\Debug\\net8.0\\compressed\\12rh1rstkj-a5qbcwq3b9.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000109769484"
+          "Quality": "0.000109733348"
         }
       ],
       "ResponseHeaders": [
@@ -9108,15 +9108,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9109"
+          "Value": "9112"
         },
         {
           "Name": "ETag",
-          "Value": "\"mmLPBBqfJnPHBDCzCk6UgOP7RHi0vqo7BUM+awhZXck=\""
+          "Value": "\"Ljx2Wt5sJDIjWLdD3jBkE8P+dfiQrUVyMh5eiOAd2sg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 23:57:17 GMT"
+          "Value": "Thu, 05 Dec 2024 04:36:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9136,19 +9136,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"TjTSjQOdX6Ehzj5gUVKnkMtJ2qdplo7fkKOCpLmWI30=\""
+          "Value": "W/\"4joeLeebv3KxDnAa1tCOKRdeLCrhNhqz70CEz5Gpx2M=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-TjTSjQOdX6Ehzj5gUVKnkMtJ2qdplo7fkKOCpLmWI30="
+          "Value": "sha256-4joeLeebv3KxDnAa1tCOKRdeLCrhNhqz70CEz5Gpx2M="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\obj\\Debug\\net8.0\\compressed\\12rh1rstkj-izhh33fopa.gz",
+      "AssetFile": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\obj\\Debug\\net8.0\\compressed\\12rh1rstkj-a5qbcwq3b9.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9157,7 +9157,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9109"
+          "Value": "9112"
         },
         {
           "Name": "Content-Type",
@@ -9165,11 +9165,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mmLPBBqfJnPHBDCzCk6UgOP7RHi0vqo7BUM+awhZXck=\""
+          "Value": "\"Ljx2Wt5sJDIjWLdD3jBkE8P+dfiQrUVyMh5eiOAd2sg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 23:57:17 GMT"
+          "Value": "Thu, 05 Dec 2024 04:36:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9187,7 +9187,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-mmLPBBqfJnPHBDCzCk6UgOP7RHi0vqo7BUM+awhZXck="
+          "Value": "sha256-Ljx2Wt5sJDIjWLdD3jBkE8P+dfiQrUVyMh5eiOAd2sg="
         }
       ]
     },
@@ -37424,7 +37424,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "39964"
+          "Value": "48064"
         },
         {
           "Name": "Content-Type",
@@ -37432,11 +37432,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+R8IrlSlNmjK0OseGEn8lIdorcl0SyZoVwXb5RWxlto=\""
+          "Value": "\"nNM+NUzBk4Ai/36Dp0ZLW06+8+OfWBtvq4/lGdl60Uc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 23:58:56 GMT"
+          "Value": "Thu, 05 Dec 2024 04:39:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -37446,18 +37446,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+R8IrlSlNmjK0OseGEn8lIdorcl0SyZoVwXb5RWxlto="
+          "Value": "sha256-nNM+NUzBk4Ai/36Dp0ZLW06+8+OfWBtvq4/lGdl60Uc="
         }
       ]
     },
     {
       "Route": "_framework/TLC.Registry.Client.pdb",
-      "AssetFile": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\obj\\Debug\\net8.0\\compressed\\0wct9raicj-j9bk2yqn95.gz",
+      "AssetFile": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\obj\\Debug\\net8.0\\compressed\\0wct9raicj-gb4jvmmphb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000033175198"
+          "Quality": "0.000027011696"
         }
       ],
       "ResponseHeaders": [
@@ -37467,15 +37467,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "30142"
+          "Value": "37020"
         },
         {
           "Name": "ETag",
-          "Value": "\"3nELu94teFcx6AxV1GbwP1GxKVpDN7RtSMeyfbveUFk=\""
+          "Value": "\"PgUzybM8Tr9mDJH2t+tiCXsQ8T3MaCTbaannl4lX9XA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 23:57:16 GMT"
+          "Value": "Thu, 05 Dec 2024 04:36:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -37495,19 +37495,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"+R8IrlSlNmjK0OseGEn8lIdorcl0SyZoVwXb5RWxlto=\""
+          "Value": "W/\"nNM+NUzBk4Ai/36Dp0ZLW06+8+OfWBtvq4/lGdl60Uc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+R8IrlSlNmjK0OseGEn8lIdorcl0SyZoVwXb5RWxlto="
+          "Value": "sha256-nNM+NUzBk4Ai/36Dp0ZLW06+8+OfWBtvq4/lGdl60Uc="
         }
       ]
     },
     {
       "Route": "_framework/TLC.Registry.Client.pdb.gz",
-      "AssetFile": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\obj\\Debug\\net8.0\\compressed\\0wct9raicj-j9bk2yqn95.gz",
+      "AssetFile": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\obj\\Debug\\net8.0\\compressed\\0wct9raicj-gb4jvmmphb.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -37516,7 +37516,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "30142"
+          "Value": "37020"
         },
         {
           "Name": "Content-Type",
@@ -37524,11 +37524,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3nELu94teFcx6AxV1GbwP1GxKVpDN7RtSMeyfbveUFk=\""
+          "Value": "\"PgUzybM8Tr9mDJH2t+tiCXsQ8T3MaCTbaannl4lX9XA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 23:57:16 GMT"
+          "Value": "Thu, 05 Dec 2024 04:36:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -37546,7 +37546,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-3nELu94teFcx6AxV1GbwP1GxKVpDN7RtSMeyfbveUFk="
+          "Value": "sha256-PgUzybM8Tr9mDJH2t+tiCXsQ8T3MaCTbaannl4lX9XA="
         }
       ]
     },
@@ -37561,7 +37561,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "53525"
+          "Value": "77589"
         },
         {
           "Name": "Content-Type",
@@ -37569,11 +37569,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yZR/b+as8/sMV6l8Q0IXume9cBIH7JCA2OFYfZvU580=\""
+          "Value": "\"qkr6nQqhkRYkp71YtBAQD7g8ReWzkJZdvMEoxu+Bnbo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 23:58:56 GMT"
+          "Value": "Thu, 05 Dec 2024 04:39:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -37583,18 +37583,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-yZR/b+as8/sMV6l8Q0IXume9cBIH7JCA2OFYfZvU580="
+          "Value": "sha256-qkr6nQqhkRYkp71YtBAQD7g8ReWzkJZdvMEoxu+Bnbo="
         }
       ]
     },
     {
       "Route": "_framework/TLC.Registry.Client.wasm",
-      "AssetFile": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\obj\\Debug\\net8.0\\compressed\\bvf7gqjgh8-1mfvs25k6a.gz",
+      "AssetFile": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\obj\\Debug\\net8.0\\compressed\\bvf7gqjgh8-2uzli0tett.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000052468650"
+          "Quality": "0.000033891412"
         }
       ],
       "ResponseHeaders": [
@@ -37604,15 +37604,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19058"
+          "Value": "29505"
         },
         {
           "Name": "ETag",
-          "Value": "\"Q4y+X4FIpcHDD15rspBqPy0VDxwjbY3vcjFQBe4mqsM=\""
+          "Value": "\"Ip3kxDDxs5UV1gMCXSaN+m/CTyA0G3/8cGojZ0PMjRQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 23:57:17 GMT"
+          "Value": "Thu, 05 Dec 2024 04:36:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -37632,19 +37632,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"yZR/b+as8/sMV6l8Q0IXume9cBIH7JCA2OFYfZvU580=\""
+          "Value": "W/\"qkr6nQqhkRYkp71YtBAQD7g8ReWzkJZdvMEoxu+Bnbo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-yZR/b+as8/sMV6l8Q0IXume9cBIH7JCA2OFYfZvU580="
+          "Value": "sha256-qkr6nQqhkRYkp71YtBAQD7g8ReWzkJZdvMEoxu+Bnbo="
         }
       ]
     },
     {
       "Route": "_framework/TLC.Registry.Client.wasm.gz",
-      "AssetFile": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\obj\\Debug\\net8.0\\compressed\\bvf7gqjgh8-1mfvs25k6a.gz",
+      "AssetFile": "E:\\source\\MudBlazorApp4\\MudBlazorApp4.Client\\obj\\Debug\\net8.0\\compressed\\bvf7gqjgh8-2uzli0tett.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -37653,7 +37653,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19058"
+          "Value": "29505"
         },
         {
           "Name": "Content-Type",
@@ -37661,11 +37661,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Q4y+X4FIpcHDD15rspBqPy0VDxwjbY3vcjFQBe4mqsM=\""
+          "Value": "\"Ip3kxDDxs5UV1gMCXSaN+m/CTyA0G3/8cGojZ0PMjRQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 23:57:17 GMT"
+          "Value": "Thu, 05 Dec 2024 04:36:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -37683,7 +37683,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Q4y+X4FIpcHDD15rspBqPy0VDxwjbY3vcjFQBe4mqsM="
+          "Value": "sha256-Ip3kxDDxs5UV1gMCXSaN+m/CTyA0G3/8cGojZ0PMjRQ="
         }
       ]
     },

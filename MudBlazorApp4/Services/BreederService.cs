@@ -6,8 +6,7 @@ using TLC.Registry.Data;
 
 namespace TLC.Registry.Services
 {
-    [Route("api/[controller]")]
-    [ApiController]
+
     public class BreederService : ControllerBase, IBreederService
     {
         private readonly ApplicationDbContext _context;
